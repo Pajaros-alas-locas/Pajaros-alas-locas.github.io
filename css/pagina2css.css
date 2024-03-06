@@ -40,12 +40,20 @@ body {
 .o-nav--menu {
   display: flex;
   padding-left: 0;
-  margin: 0;
+  margin-right: 90%;
   list-style: none;
+  text-decoration: none;
+}
+.o-nav--menu li{
+ margin: 20%;
+ color: white;
+ font-weight: bold;
+ text-decoration: none;
 }
 
+
 .hero {
-  background-color: #dbff45;
+  background-color: #00b983;
   min-height: 100%;
 }
 .hero-portfolio--header {
