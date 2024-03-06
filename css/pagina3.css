@@ -8,7 +8,7 @@ body {
   font-family: Roboto, sans-serif;
   font-weight: 400;
   color: #333;
-  background-color: #eee;
+  background-color: #00b983;
 }
 
 .row:after {
@@ -27,7 +27,7 @@ body {
   margin: 1.5em auto 0 auto;
   max-width: 400px;
   padding: 1.5em;
-  background-color: #fff;
+  background-color: #a8e93f;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
 }
 
