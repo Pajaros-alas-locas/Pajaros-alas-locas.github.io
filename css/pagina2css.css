@@ -14,12 +14,12 @@ body {
 .o-header {
   position: fixed;
   width: 100vw;
-  height: 3rem;
+  height: 4rem;
   top: 0;
   left: 0;
   z-index: 10;
   display: flex;
-  background-color: #fff;
+  background-color: #113c20;
 }
 .o-nav {
   width: 100%;
@@ -30,6 +30,12 @@ body {
 }
 .o-nav--logo {
   margin: 0;
+
+}
+.o-nav--logo img{
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
 }
 .o-nav--menu {
   display: flex;
@@ -39,7 +45,7 @@ body {
 }
 
 .hero {
-  background-color: #1b2b35;
+  background-color: #dbff45;
   min-height: 100%;
 }
 .hero-portfolio--header {
@@ -52,6 +58,7 @@ body {
 }
 .hero-portfolio--header-intro {
   position: relative;
+  text-align: center;
   top: 3vh;
   left: 0;
   right: 0;
