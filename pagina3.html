@@ -9,36 +9,38 @@
         <link rel="stylesheet" href="./css/pagina3.css">
     </head>
     <body>
+        <nav>
+            <img src="./img/Logo.jpg" alt="logo Ladra Feliz">
+            <a href="./index.html">Inicio</a>
+            <a href="./pagina2.html">Galería</a>
+            <a href="./pagina3.html">Donaciones</a>
+        </nav>
         <main>
             <div class="card">
                 <h2 class="headline">¡Los perros están en peligro, ayudalos!</h2>
                 <form>
+                    <input type="radio" id="euros15" name="donacion"> <label for="euros15">15€</label>
+                    <br />
+                    <input type="radio" id="euros25" name="donacion"> <label for="euros25">25€</label>
+                    <br />
+                    <input type="radio" id="euros50" name="donacion"> <label for="euros50">50€</label>
+                    <br />
+                    <input type="radio" id="otro" name="donacion"> <label for="otro">Otro: 
+                        <div class="row">
+                            <div class="currency">
+                            <input type="text" class="form-input" placeholder="Payment Amount">
+                            </div>
+                        </div>
+                    </label>
+                    <br />
+
+                    <label for="enviarEmail">Déjanos tu email: </label>
+                    <br />
+                    <input type="text" id="enviarEmail" name="email" placeholder="email@gmail.com">
+                    <br />
+                    <br />
                   <div class="row">
-                    <div class="currency" data-currency="EUR">
-                      <input type="text" class="form-input" placeholder="Payment Amount">
-                    </div>
-                  </div>
-              
-                  <div class="row">
-                    <div class="currency" data-currency="USD">
-                      <input type="text" class="form-input" placeholder="Payment Amount">
-                    </div>
-                  </div>
-                  
-                  <div class="row">
-                    <div class="currency" data-currency="FFF">
-                      <input type="text" class="form-input" placeholder="Payment Amount">
-                    </div>
-                  </div>    
-                  
-                  <div class="row">
-                    <div class="currency">
-                      <input type="text" class="form-input" placeholder="Payment Amount">
-                    </div>
-                  </div>
-                      
-                  <div class="row">
-                    <input type="submit" id="submit" class="button" value="Make a Donation">
+                    <input type="submit" id="submit" class="button" value="Hacer una donacion">
                   </div>
                 </form>
         </main>

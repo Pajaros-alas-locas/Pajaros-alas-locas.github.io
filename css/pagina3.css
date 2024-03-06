@@ -17,6 +17,19 @@ body {
   clear: both;
 }
 
+nav{
+  width: auto;
+  height: auto;
+  padding: 1.5em;
+  background-color: #143f2c;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+nav a{
+    color: #ffff97;
+    margin: 40px;
+}
+
 .headline {
   margin: 0;
   font-size: 1.5em;
@@ -96,4 +109,10 @@ form .error:hover {
   color: red;
   background-color: transparent;
   border-bottom-color: red;
+}
+
+img{
+    width: 60px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
