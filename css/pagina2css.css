@@ -125,7 +125,8 @@ body {
   bottom: 1rem;
   left: 0.5rem;
   font-size: 1em;
-  color: white;
+  color:#ffffff;
+  font-weight: bold;
 }
 .c-card.no-focus {
   filter: grayscale(100%);
