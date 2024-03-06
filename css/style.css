@@ -42,7 +42,7 @@ nav ul a:hover {
 
 
 body{
-    background: green;
+    background: #00b983;
     font-size: 2rem;
 }
 
@@ -60,7 +60,7 @@ body{
 .inicio .contenido{
     padding: 20px;
     background-color: #1e2326;
-    max-width: 350px;
+    width: 60%;
     margin: auto;
     text-align: center;
     border-radius: 40px;
