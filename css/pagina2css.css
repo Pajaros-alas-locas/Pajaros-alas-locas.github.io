@@ -50,6 +50,10 @@ body {
  font-weight: bold;
  text-decoration: none;
 }
+.o-nav--menu li a{
+  text-decoration: none;
+  color: white;
+}
 
 
 .hero {
@@ -84,7 +88,7 @@ body {
   bottom: -0.5rem;
   width: 34px;
   height: 5px;
-  background: #fff;
+  background: #202020;
 }
 .hero-portfolio--grid {
   width: 100%;
